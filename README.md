@@ -1,35 +1,18 @@
-Title: “FINANCE”
+# Finance Dashboard Project
 
-Tabs/Sections: “Tab 1 – Year by Parent”
+[cite_start]This repository contains a finance dashboard  [cite_start]created using IBM Cognos Analytics. The dashboard provides a high-level overview of several key business metrics.
 
-Charts/Visuals:
+## 📊 Visualizations
 
-A bar or line chart labeled “Year by Parent” showing numeric values ranging roughly from 0 to 3.
+[cite_start]The dashboard  includes the following components:
 
-A comparison chart labeled “Currency Calc compared to Member” with data such as Currency Calc, Member, and (-83.33%) difference.
+* [cite_start]**Year by Parent:** A bar chart displaying data related to parent entities over time[cite: 3].
+* [cite_start]**Regional Performance:** A choropleth map visualizing data by region [cite: 10][cite_start], using Mapbox and OpenStreetMap[cite: 13].
+* [cite_start]**Currency Calc KPI:** A key performance indicator tile showing a "Currency Calc" of 1 [cite: 7, 8] [cite_start]compared to a "Member" value of 6, representing an -83.33% difference[cite: 9].
+* [cite_start]**Member by Month:** A pie chart breaking down "Member" data across all 12 months.
+* [cite_start]**Version by Account:** A bar chart that plots "Version" data [cite: 16] [cite_start]across various financial accounts (e.g., 6000, 6150, 6400, EFS)[cite: 17, 18, 19].
 
-A Version by Account table/list referencing accounts like:
+## 🛠️ Technology
 
-4999, 6000, 6010, 6020, 6110, 6130, 6150, 6210, 6230, 6310, 6400, 6510
-
-A Member by Month section with data for months (1–12) and counts (mostly “6” values).
-
-A map visualization (“Region_id for Region_Name regions”) showing a Mapbox/OpenStreetMap background — possibly indicating geographical financial data.
-
-Footer/Metadata:
-
-Generated on November 9, 2025, 9:53 PM
-
-Mentions Mapbox and OpenStreetMap licenses.
-
-Contains an IBM Analytics dashboard URL.
-
-Overall, it looks like a snapshot of a finance dashboard showing:
-
-Yearly and regional comparisons
-
-Currency calculations and variances
-
-Account-based versioning or data integrity metrics
-
-Possibly some membership or entity-based breakdowns over time
+* [cite_start]**Platform:** IBM Cognos Analytics 
+* [cite_start]**Mapping:** Mapbox & OpenStreetMap [cite: 13]
